@@ -47,7 +47,7 @@ public class HomeWork2 {
                 String stringValue = row[colIndex];
                 try {
                     int intValue = Integer.parseInt(stringValue);
-                    sumResult = Integer.parseInt(stringValue);
+                    sumResult += Integer.parseInt(stringValue);
                 } catch (NumberFormatException e) {
                     throw new MyArrayDateException(stringValue, rowIndex, colIndex);
                 }

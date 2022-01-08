@@ -2,6 +2,6 @@ package Lesson_4;
 
 public class Example2 {
     public static void main(String[] args) {
-        System.out.println("Bay");
+        System.out.println("add how are you");
     }
 }

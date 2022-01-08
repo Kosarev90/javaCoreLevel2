@@ -16,7 +16,7 @@ public class HomeWorkThread {
 
     public void oneThread() {
         float[] array = new float[SIZE];
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 1; i < array.length; i++) {
             array[i] = 1.0f;
         }
         long startTime = System.currentTimeMillis();

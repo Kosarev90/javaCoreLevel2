@@ -1,4 +1,4 @@
-package com.example.javafx;
+package Lesson_6.Client;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class ClintChat extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader();
@@ -18,7 +18,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(load);
         stage.setScene(scene);
 
-        HelloController controller = fxmlLoader.getController();
+        ClintController controller = fxmlLoader.getController();
         controller.userList.getItems().addAll("user1", "user2", "user3");
 
         stage.show();

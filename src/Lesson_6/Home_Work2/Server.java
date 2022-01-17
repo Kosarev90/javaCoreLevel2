@@ -52,6 +52,8 @@ public class Server {
         }
     }
 
+
+
     private Thread runInputThraed(DataInputStream in) {
         Thread thread = new Thread(() -> {
             while (!Thread.currentThread().isInterrupted()) {
@@ -65,7 +67,6 @@ public class Server {
                     System.out.println("Подключение закрыто");
                     break;
                 }
-
             }
         });
         thread.start();

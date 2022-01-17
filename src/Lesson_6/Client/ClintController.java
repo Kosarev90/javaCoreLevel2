@@ -1,10 +1,10 @@
-package com.example.javafx;
+package Lesson_6.Client;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 
-public class HelloController {
+public class ClintController {
     @FXML
     private TextArea textArea;
     @FXML

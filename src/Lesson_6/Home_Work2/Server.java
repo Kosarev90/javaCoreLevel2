@@ -65,6 +65,7 @@ public class Server {
                     System.out.println("Подключение закрыто");
                     break;
                 }
+
             }
         });
         thread.start();

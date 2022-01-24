@@ -8,10 +8,8 @@ import java.util.Scanner;
 
 public class Client {
 
-
     public static void main(String[] args) throws IOException {
         new Client().start("LocalHost", 8189);
-
     }
 
     private void start(String localHost, int port) throws IOException {

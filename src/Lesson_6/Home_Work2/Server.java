@@ -52,8 +52,6 @@ public class Server {
         }
     }
 
-
-
     private Thread runInputThraed(DataInputStream in) {
         Thread thread = new Thread(() -> {
             while (!Thread.currentThread().isInterrupted()) {
